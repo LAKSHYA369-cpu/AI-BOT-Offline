@@ -119,3 +119,11 @@ if __name__ == "__main__":
     set_lips(90, 90)
     main_loop()
 🤖 How the Robot Learns & Remembers YouFace & Object Memory: The camera continuously runs an OpenCV background thread. When it detects your face, it saves your visual features to a local folder (/memories/faces/).Personal Information Storage: When you tell the robot, "My name is Alex and my friend is Sam," the Python script saves this text into a local vector file (chroma_db). Next time you ask, "Who am I?", it searches the database locally and recalls your name!Voice Cloning: Feed a 10-second .wav audio recording of your voice into Coqui TTS. The robot uses that sample to generate all synthesized speech in your exact voice tone.🛠️ Calibration Checklist[ ] Lip Distance Check: Test set_lips(120, 60) manually in Python to make sure the lip wires don't pull too hard or tear the foam face.[ ] Microphone Level: Adjust mic gain in Linux sound settings (alsamixer) so background noise doesn't trigger false listening loops.[ ] Camera Alignment: Ensure the eye camera lens isn't obstructed by the ping-pong eye casing.
+
+
+
+
+https://share.gemini.google/yWEboXtYhpg1
+
+
+
